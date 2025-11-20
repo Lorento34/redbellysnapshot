@@ -1,6 +1,6 @@
 <img width="1200" height="300" alt="0_5ouMdY_Pjm7wDkVx" src="https://github.com/user-attachments/assets/13a15c9f-5a54-4c46-b075-a23d50ea5fa1" />
 
-Bu snapshot, Redbelly Düğümünüzü en güncel snapshot üzerinden hızlı şekilde senkronize yapmanız için hazırlanmıştır. Redbelly Düğümünüzü normal bir şekilde kurun. Senkronize olmaya başladıktan sonra aşağıda ki komutlardan devam edin...
+Redbelly düğümünüzü normal bir şekilde kurun. Kurulum tamamlandıktan sonra düğümünüz senkronize olmaya başladığında aşağıda ki komutlardan devam edin kuruluma. Bu snapshot dosyası 2633535 bloktan düğümünüzü başlatacaktır.
 
 ------
 
