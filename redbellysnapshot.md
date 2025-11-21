@@ -17,7 +17,7 @@ sudo rm -rf /opt/redbelly/rbn/database
 3- Snapshot’ı indirip klasöre çıkarın.
 
 ```Sieve
-curl -L http://redbellysnapshot.lorentochain.online/redbelly/redbelly-snapshot.tar.gz | sudo tar -xz -C /opt/redbelly
+curl -L http://redbellysnapshot.lorentochain.online/redbelly/redbelly-snapshot.tar.gz | sudo tar -xz -C /opt/redbelly/rbn
 ```
 
 4- Snapshot yüklemesi tamamlandıktan sonra Redbelly servisini tekrar başlatın
