@@ -9,24 +9,37 @@ Redbelly düğümünüzü normal bir şekilde kurun. Kurulum tamamlandıktan son
 ```Sieve
 sudo systemctl stop redbelly.service
 ```
-2- Eski veri klasörünü silin
+2- Nodekey dosyasını yedekleyin
+
+```Sieve
+sudo mv /opt/redbelly/rbn/database/nodekey /opt/redbelly/rbn/nodekey
+```
+
+3- Eski veri klasörünü silin
 
 ```Sieve
 sudo rm -rf /opt/redbelly/rbn/database
 ```
-3- Snapshot’ı indirip klasöre çıkarın.
+
+4- Snapshot’ı indirip klasöre çıkarın.
 
 ```Sieve
 curl -L http://redbellysnapshot.lorentochain.online/redbelly/redbelly-snapshot.tar.gz | sudo tar -xz -C /opt/redbelly/rbn
 ```
 
-4- Snapshot yüklemesi tamamlandıktan sonra Redbelly servisini tekrar başlatın
+5- Nodekey dosyasını geri yükleyin
+
+```Sieve
+sudo mv /opt/redbelly/rbn/nodekey /opt/redbelly/rbn/database/nodekey
+```
+
+6- Snapshot yüklemesi tamamlandıktan sonra Redbelly servisini tekrar başlatın
 
 ```Sieve
 sudo systemctl start redbelly.service
 ```
 
-5- Servis durumunu görmek için
+7- Servis durumunu görmek için
 
 ```Sieve
 systemctl status redbelly.service
