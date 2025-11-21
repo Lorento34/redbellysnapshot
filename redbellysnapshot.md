@@ -12,7 +12,7 @@ sudo systemctl stop redbelly.service
 2- Eski veri klasörünü silin
 
 ```Sieve
-sudo rm -rf /opt/redbelly/rbn
+sudo rm -rf /opt/redbelly/rbn/database
 ```
 3- Snapshot’ı indirip klasöre çıkarın.
 
