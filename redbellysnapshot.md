@@ -27,13 +27,13 @@ sudo rm -rf /opt/redbelly/rbn/database
 curl -L http://redbellysnapshot.lorentochain.online/redbelly/redbelly-snapshot.tar.gz | sudo tar -xz -C /opt/redbelly/rbn
 ```
 
-5- Nodekey dosyasını geri yükleyin
+5- Snapshot yüklemesi tamamlandıktan sonra Nodekey dosyasını geri yükleyin
 
 ```Sieve
 sudo mv /opt/redbelly/rbn/nodekey /opt/redbelly/rbn/database/nodekey
 ```
 
-6- Snapshot yüklemesi tamamlandıktan sonra Redbelly servisini tekrar başlatın
+6- Redbelly servisini tekrar başlatın
 
 ```Sieve
 sudo systemctl start redbelly.service
