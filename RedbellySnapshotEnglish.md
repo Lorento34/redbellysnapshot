@@ -2,7 +2,7 @@
 
 Install your Redbelly node using the standard installation process. Once the installation is complete and your node begins syncing, continue with the setup by running the commands listed below.
 
-This snapshot will start your node from block 2,633,535, allowing you to skip the initial full synchronization.
+This snapshot file is updated every 15 days, allowing you to skip the initial full synchronization.
 
 ------
 
